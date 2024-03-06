@@ -61,7 +61,7 @@ export default function EditMenuItemPage() {
       else
         reject();
     });
-
+    
     await toast.promise(promise, {
       loading: 'Deleting...',
       success: 'Deleted',
